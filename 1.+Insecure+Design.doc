@@ -1,0 +1,592 @@
+Message-ID: <1261205044.1742100.1700797695442.JavaMail.kona@sc-konawiki-ws>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1742099_1043535001.1700797695442"
+
+------=_Part_1742099_1043535001.1700797695442
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>1. Insecure Design</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>1. Insecure Design</h1>
+    <div class=3D"Section1">
+        <p><span style=3D"color: rgb(0,0,0);"><strong>Secure design</strong=
+> </span><span style=3D"color: rgb(0,0,0);">is neither an add-on nor a tool=
+ that you can add to software. </span><span style=3D"color: rgb(35,58,68);"=
+>Secure Design is like a Safety Culture for Software:</span></p>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>Constantly Watching Out: </sp=
+an><span>Imagine if building software were like building a fortress. Secure=
+ design is like having </span><span>guards always watching</span><span> for=
+ potential threats to your fortress. (</span><span>Example</span><span>: Wa=
+tching one user giving wrong password 7 times. Consider this as unusual act=
+ivity.)</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Making Strong Plans: </span><=
+span>It's not just about building walls; it's about planning really well so=
+ that even if someone tries to attack, your fortress (or software) can stan=
+d strong. (</span><span>Example</span><span>: Lock this user for 10 mins)</=
+span></p></li>
+</ul>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>In the </span><span>user stor=
+y development</span><span> determine the </span><span>correct flow and fail=
+ure states</span><span>.&nbsp;</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Ensure the </span><span>resul=
+ts are documented</span><span> in the user story</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Learn from </span><span>mista=
+kes(if faced before)</span><span> and offer positive incentives to promote =
+improvements.&nbsp;</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Get in touch with your securi=
+ty specialists at the beginning of a software project throughout the whole =
+project and maintenance of your software</span></p></li>
+</ul>
+<div>
+<p><br></p>
+<h1 id=3D"id-1.InsecureDesign-InsecureDesign:"><span>Insecure Design:</span=
+></h1>
+<p><span style=3D"color: rgb(0,0,0);">Notable Common Weakness:</span></p>
+<ol>
+<li style=3D"list-style-type: decimal;"><p><span>Generation of Error Messag=
+e Containing Sensitive Information&nbsp;</span></p></li>
+<li style=3D"list-style-type: decimal;"><p><span>Unprotected Storage of Cre=
+dentials</span></p></li>
+</ol>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);">&nbsp; &nbsp; &nbsp; &nbsp;3. Trus=
+t Boundary Violation (</span><span style=3D"color: rgb(15,15,15);">Data is =
+not properly sanitized, validated</span><span style=3D"color: rgb(0,0,0);">=
+)</span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><br></span></span>
+</div>
+<div>
+<p><strong><span style=3D"color: rgb(0,0,0);"><br></span></strong></p>
+<p><strong><span style=3D"color: rgb(0,0,0);">Shift-left Coding Practice</s=
+pan></strong></p>
+<span><span style=3D"color: rgb(0,0,0);"><br></span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><span><span style=3D"color: rgb(0,=
+0,0);">=E2=80=9CShift-left" is a concept in software development that invol=
+ves integrating security practices earlier in the development process. Trad=
+itionally, security considerations were addressed later in the development =
+lifecycle, but "shift-left" promotes incorporating security measures as ear=
+ly as possible, ideally during the coding phase.</span></span></span></span=
+>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><br></span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><br></span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><strong><span style=3D"color: rgb(=
+0,0,0);">Factors Contributing to Insecure Design:</span></strong></span></s=
+pan>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><strong><span style=3D"color: rgb(=
+0,0,0);"><br></span></strong></span></span>
+</div>
+<div>
+<span><strong style=3D"letter-spacing: 0.0px;">Lack of Business Risk Profil=
+ing:&nbsp;</strong></span>
+</div>
+<div>
+<span style=3D"letter-spacing: 0.0px;">Not understanding the specific risks=
+ and needs of the business when creating the software. It's like not realiz=
+ing how important it is to </span>
+<span style=3D"color: rgb(0,121,107);">have good locks</span>
+<span style=3D"letter-spacing: 0.0px;"> on your doors.</span>
+</div>
+<div>
+<span style=3D"letter-spacing: 0.0px;"><br></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><span><strong><span style=3D"color=
+: rgb(35,58,68);">Failure to Determine Security Requirements:</span></stron=
+g><span style=3D"color: rgb(35,58,68);"> </span></span></span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><span><span style=3D"color: rgb(0,=
+121,107);">If we don't really figure out </span><span style=3D"color: rgb(3=
+5,58,68);">how much security</span><span style=3D"color: rgb(35,58,68);"> i=
+s needed based on the risks, we might end up with a plan that doesn't prote=
+ct against the right things.</span></span></span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><br></span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><br></span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><span><span class=3D"confluence-em=
+bedded-file-wrapper confluence-embedded-manual-size"><img class=3D"confluen=
+ce-embedded-image confluence-external-resource" height=3D"400" src=3D"https=
+://lh7-us.googleusercontent.com/f_lTEAzk0gOu42kd2_mM5YkXui3seuoUS1mIIU7nLjh=
+a2G5VGWZ-uAttnDX2OwIE1m9ZaIJnnqSkMwZeDXTVPJ_A31-9_jCLfjcb2CqTiufkvI1U69GbTb=
+QpA3N4YKHHRRA-T3bQ9UBAkENL_GG2ub9EsQ=3Ds2048" data-image-src=3D"https://lh7=
+-us.googleusercontent.com/f_lTEAzk0gOu42kd2_mM5YkXui3seuoUS1mIIU7nLjha2G5VG=
+WZ-uAttnDX2OwIE1m9ZaIJnnqSkMwZeDXTVPJ_A31-9_jCLfjcb2CqTiufkvI1U69GbTbQpA3N4=
+YKHHRRA-T3bQ9UBAkENL_GG2ub9EsQ=3Ds2048"></span></span></span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><br></span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><br></span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><strong><span style=3D"color: rgb(=
+0,0,0);">Example1: </span><span style=3D"color: rgb(0,0,0);">Credential Rec=
+overy Workflow:</span></strong></span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(0,0,0);"><br></span></span>
+</div>
+<div>
+<p><span style=3D"color: rgb(15,15,15);">A process designed to help users r=
+egain access to their accounts in case they forget their passwords or are l=
+ocked out.</span></p>
+<p><strong><span style=3D"color: rgb(0,0,0);">"Questions and Answers" Appro=
+ach: </span></strong><span style=3D"color: rgb(15,15,15);">The information =
+required for&nbsp;</span><span style=3D"color: rgb(15,15,15);">these questi=
+ons is often personal and may be easily obtainable through&nbsp;</span><spa=
+n style=3D"color: rgb(15,15,15);">social engineering or online sources</spa=
+n><span style=3D"color: rgb(15,15,15);">. Multiple people might know the na=
+me of a user's pet or their favorite color.&nbsp; So, this approach is proh=
+ibited by NIST 800-63b, the OWASP ASVS, and the OWASP Top 10.&nbsp;</span><=
+/p>
+<p><strong><span style=3D"color: rgb(15,15,15);">Recommendation:</span></st=
+rong></p>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>The scenario recommends remov=
+ing the code that implements the "questions and answers" approach and repla=
+cing it with a more secure design. This could involve adopting more robust =
+and multi-factor authentication methods, such as using one-time codes sent =
+to a user's registered email or phone, biometric authentication, or other s=
+ecure identity verification mechanisms.</span></p></li>
+</ul>
+<div>
+<strong><span style=3D"color: rgb(0,0,0);">Example2:&nbsp;</span><span styl=
+e=3D"color: rgb(0,0,0);">Group Booking Policy</span></strong>
+</div>
+<div>
+<p><span style=3D"color: rgb(0,0,0);">A cinema chain allows group booking d=
+iscounts and has a maximum of fifteen attendees before requiring a deposit(=
+not full amount). Attackers could threat model this flow and test if they c=
+ould book six hundred seats and all cinemas at once in a few requests, caus=
+ing a massive loss of income.</span></p>
+<div>
+<span><span><br></span></span>
+</div>
+<div>
+<p><span style=3D"color: rgb(15,15,15);">To address this threat, the cinema=
+ chain can implement various mitigation measures:</span></p>
+</div>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>Rate Limiting: </span><span>I=
+mplement rate limiting on the booking system to restrict the number of requ=
+ests a user or IP address can make within a specific time frame. This helps=
+ prevent a single user or automated script from overwhelming the system.</s=
+pan></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Monitoring and Anomaly Detect=
+ion:</span><span> Implement systems to monitor booking patterns and detect =
+anomalies. Unusually large numbers of bookings within a short period can tr=
+igger alerts for further investigation.</span></p></li>
+</ul>
+</div>
+<div>
+<span><span style=3D"color: rgb(15,15,15);">&nbsp;User Authentication: </sp=
+an><span style=3D"color: rgb(15,15,15);">Require users to authenticate thei=
+r identity before making large bookings. This additional layer of verificat=
+ion can help ensure that bookings are legitimate.</span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(15,15,15);"><br></span></span>
+</div>
+<div>
+<span><span style=3D"color: rgb(15,15,15);"><br></span></span>
+</div>
+<div>
+<span><span><span style=3D"color: rgb(0,0,0);"><strong><span style=3D"color=
+: rgb(0,0,0);">Example3: </span><span style=3D"color: rgb(0,0,0);">Online s=
+tore<br></span></strong></span></span></span>
+<p><span style=3D"color: rgb(0,0,0);">There is a problem with a retail chai=
+n's online store that sells high-end video cards. Scalpers are using comput=
+er programs (bots) to quickly buy up these video cards in large quantities =
+with the intention of reselling them at higher prices on auction websites. =
+This is causing frustration among genuine customers, as they are unable to =
+buy the video cards at regular prices.</span></p>
+<ul>
+<li style=3D"list-style-type: disc;"><p><strong><span style=3D"color: rgb(0=
+,0,0);">Proposed Solution:</span></strong></p></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);">To address this issue, the suggestion=
+ is to implement careful anti-bot measures on the website. These measures i=
+nclude:</span></p>
+<ul>
+<li style=3D"list-style-type: none;"><p><span>Anti-Bot Design:</span></p></=
+li>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>The website should be designe=
+d in a way that makes it difficult for automated bots to make purchases. Th=
+is could involve implementing security features that can distinguish betwee=
+n human users and automated scripts.</span></p></li>
+</ul>
+<li style=3D"list-style-type: none;"><p><span>Domain Logic Rules:</span></p=
+></li>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>Set up specific rules or cond=
+itions (domain logic rules) that help identify suspicious transactions. For=
+ example, purchases made within a few seconds of a product becoming availab=
+le might be flagged as potentially inauthentic.</span></p></li>
+</ul>
+<li style=3D"list-style-type: none;"><p><span>Transaction Rejection:</span>=
+</p></li>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>If a purchase is identified a=
+s potentially being made by a bot or falls under suspicious conditions, the=
+ transaction should be rejected. This means the scalpers' attempts to buy i=
+n bulk for resale would be unsuccessful.</span></p></li>
+</ul>
+</ul>
+</div>
+<div>
+<span><span style=3D"color: rgb(15,15,15);"><strong><span style=3D"color: r=
+gb(15,15,15);"><span><br><br><br></span></span></strong></span></span>
+</div>
+<div>
+<span><span><span><span><span style=3D"color: rgb(15,15,15);"><strong><span=
+ style=3D"color: rgb(15,15,15);">Security Principles:</span></strong></span=
+></span></span></span></span>
+</div>
+<div>
+<span><span><span><span><span style=3D"color: rgb(15,15,15);"><strong><span=
+ style=3D"color: rgb(0,0,0);"><br></span></strong></span></span></span></sp=
+an></span>
+</div>
+<div>
+<span><span><span style=3D"color: rgb(0,0,0);letter-spacing: 0.0px;">1. <st=
+rong>The principle of Least Privilege and Separation of Duties:</strong></s=
+pan></span></span>
+</div>
+<div>
+<strong><span style=3D"color: rgb(0,0,0);letter-spacing: 0.0px;">Least Priv=
+ilege </span></strong>
+<span style=3D"color: rgb(0,0,0);">is a security principle that states that=
+ users should only be given the </span>
+<span style=3D"color: rgb(0,0,0);">minimum amount of access </span>
+<span style=3D"color: rgb(0,0,0);">necessary to perform their job. This mea=
+ns that users should only be given </span>
+<span style=3D"color: rgb(0,0,0);">access to the resources they need </span=
+>
+<span style=3D"color: rgb(0,0,0);">to do their job, and no more. This helps=
+ to reduce the risk of </span>
+<span style=3D"color: rgb(0,0,0);">unauthorized access to sensitive data or=
+ systems</span>
+<span style=3D"color: rgb(0,0,0);">, as users are only able to access the r=
+esources they need.</span>
+</div>
+<div>
+<span style=3D"color: rgb(0,0,0);"><br></span>
+</div>
+<div>
+<strong><span style=3D"color: rgb(0,0,0);letter-spacing: 0.0px;">Separation=
+ of Duties</span></strong>
+<span style=3D"color: rgb(0,0,0);"> is a system of checks and balances that=
+ ensures that </span>
+<span style=3D"color: rgb(0,0,0);">no single individual has control over al=
+l aspects of a transaction.</span>
+<span style=3D"color: rgb(0,0,0);"> This is done by assigning different tas=
+ks to different people, so that </span>
+<span style=3D"color: rgb(0,0,0);">no one person has control over the entir=
+e process</span>
+<span style=3D"color: rgb(0,0,0);">. This helps to reduce the risk of fraud=
+ and errors, as well as ensuring that all tasks are completed in a timely m=
+anner.</span>
+</div>
+<div>
+<span style=3D"color: rgb(0,0,0);"><br></span>
+</div>
+<div>
+<p><strong><span style=3D"color: rgb(0,0,0);">2.The principle of Defense-in=
+-Depth:</span></strong></p>
+<p><span style=3D"color: rgb(0,0,0);">It is based on the idea that if one l=
+ayer of security fails, the other layers will still be able to protect the =
+asset.&nbsp;</span></p>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>Physical Security: </span><sp=
+an>This includes controlled access to the </span><span>data center or serve=
+r room </span><span>through keycard access, biometric authentication, and s=
+urveillance cameras. Only authorized personnel have physical access to crit=
+ical infrastructure.</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Network Security: </span><spa=
+n>Safeguards implemented at the network level, including firewalls and secu=
+re network configurations.</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Application Security: </span>=
+<span>Protective measures applied to software and applications, involving s=
+ecure coding practices, regular security testing, and secure application ar=
+chitecture.</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Data Security: </span><span>M=
+easures to secure sensitive data, including encryption, access controls, an=
+d data backup and recovery mechanisms.</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>User Education and Awareness:=
+&nbsp;</span><span>Training programs and awareness campaigns are conducted =
+to educate users about security best practices. This includes recognizing p=
+hishing attempts, using strong passwords, and understanding the importance =
+of adhering to security policies.</span></p></li>
+</ul>
+</div>
+<div>
+<span style=3D"color: rgb(0,0,0);"><span><span style=3D"color: rgb(15,15,15=
+);">Security information and event management (SIEM)</span><span style=3D"c=
+olor: rgb(15,15,15);"> systems are used to analyze log data and detect anom=
+alies that may indicate a security incident.</span></span></span>
+</div>
+<div>
+<span style=3D"color: rgb(0,0,0);"><br></span>
+</div>
+<div>
+<p><strong><span style=3D"color: rgb(0,0,0);">3. The principle of Zero Trus=
+t</span></strong></p>
+<p><span style=3D"color: rgb(0,0,0);">It is based on the idea that organiza=
+tions should not trust any user, device, or network, even if they are insid=
+e the organization=E2=80=99s network. Instead, all requests for access must=
+ be authenticated and authorized before access is granted. Zero Trust also =
+requires organizations to continuously monitor and audit user activity to e=
+nsure that access is only granted to those who need it.</span></p>
+<p><br></p>
+<p><span style=3D"color: rgb(0,0,0);"><br></span></p>
+</div>
+<span><span style=3D"color: rgb(0,0,0);"><br></span></span>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_1742099_1043535001.1700797695442--

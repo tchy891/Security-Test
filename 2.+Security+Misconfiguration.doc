@@ -1,0 +1,398 @@
+Message-ID: <617655871.1742102.1700797702587.JavaMail.kona@sc-konawiki-ws>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1742101_2136539129.1700797702587"
+
+------=_Part_1742101_2136539129.1700797702587
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>2. Security Misconfiguration</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>2. Security Misconfiguration</h1>
+    <div class=3D"Section1">
+        <div>
+<div>
+<h1 id=3D"id-2.SecurityMisconfiguration-A05:SecurityMisconfiguration:"><spa=
+n style=3D"color: rgb(0,0,0);"><strong><span style=3D"color: rgb(0,0,0);">A=
+05: Security Misconfiguration:</span></strong><br></span></h1>
+<p><span style=3D"color: rgb(0,0,0);"><br></span></p>
+<p><span style=3D"color: rgb(0,0,0);">Example: Amazon Web Services (AWS) S3=
+ Bucket Misconfiguration</span></p>
+<p><span style=3D"color: rgb(0,0,0);">Improperly configured permissions on =
+an S3 bucket can have significant security implications.</span></p>
+<ul>
+<li style=3D"list-style-type: none;"><p><span>Scenario:</span></p></li>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>An organization uses </span><=
+span>AWS S3 to store sensitive documents and files</span><span>. The S3 buc=
+ket is intended to be </span><span>accessible only to authorized personnel =
+</span><span>within the organization and should not be publicly accessible.=
+</span></p></li>
+</ul>
+<li style=3D"list-style-type: none;"><p><span>Improper Configuration:</span=
+></p></li>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>Due to a misconfiguration</sp=
+an><span>, the S3 bucket permissions are set to allow </span><span>public <=
+/span><span>access. This means that anyone on the internet can read and wri=
+te files to the bucket without requiring any authentication.</span></p></li=
+>
+</ul>
+<li style=3D"list-style-type: none;"><p><span>Security Implications:</span>=
+</p></li>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>The misconfigured permissions=
+ expose sensitive data to the public, leading to potential data breaches. A=
+ttackers may discover and access confidential documents, and the organizati=
+on might unknowingly be leaking sensitive information.</span></p></li>
+</ul>
+</ul>
+<p><br></p>
+<p><strong>Some Common Cases:</strong></p>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>Unnecessary</span><span> feat=
+ures are enabled or </span><span>installed</span><span> (e.g., unnecessary =
+ports, services, pages, accounts, or privileges).</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Default accounts</span><span>=
+ and their passwords are still enabled and unchanged.</span></p></li>
+</ul>
+<p style=3D"margin-left: 72.0pt;"><span style=3D"color: rgb(15,15,15);">Exa=
+mple Misconfiguration - Default Administrative Credentials:</span></p>
+<p style=3D"margin-left: 72.0pt;"><span style=3D"color: rgb(15,15,15);">The=
+ Tomcat Manager application is accessible at </span><span style=3D"color: r=
+gb(15,15,15);"><a class=3D"external-link" href=3D"http://example.com:8080/m=
+anager/html" rel=3D"nofollow">http://example.com:8080/manager/html</a></spa=
+n><span style=3D"color: rgb(15,15,15);">, and the default credentials </spa=
+n><span style=3D"color: rgb(15,15,15);">(</span><span style=3D"color: rgb(1=
+5,15,15);">admin/admin</span><span style=3D"color: rgb(15,15,15);">) </span=
+><span style=3D"color: rgb(15,15,15);">are not changed. This allows anyone =
+with this knowledge to access and control the Tomcat Manager.</span></p>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>For upgraded systems, the lat=
+est security features are disabled or not configured securely.</span></p></=
+li>
+</ul>
+<div>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>The security settings in the =
+application servers, application frameworks (e.g., Struts, Spring, ASP.NET)=
+, libraries, databases, etc., are not set to secure values.</span></p></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);">Example: Insecure Spring Security Con=
+figuration</span></p>
+<p><span style=3D"color: rgb(0,0,0);">Scenario:</span></p>
+<p><span style=3D"color: rgb(0,0,0);">An organization is developing a web a=
+pplication using the Spring Framework to manage user authentication and aut=
+horization. However, due to misconfigurations, the security settings are no=
+t set to secure values.</span></p>
+<p><span style=3D"color: rgb(0,0,0);">Insecure Configuration Issues:</span>=
+</p>
+<p><span style=3D"color: rgb(15,15,15);">Missing or Weak Session Management=
+:</span></p>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>Problem: Session management i=
+s not configured securely, leading to issues such as session fixation or in=
+sufficient session timeout.</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Consequence: Attackers might =
+exploit weak session management to gain unauthorized access or impersonate =
+users.</span></p></li>
+</ul>
+<div>
+<strong><span style=3D"color: rgb(0,0,0);">How to Prevent?</span></strong>
+</div>
+<ol>
+<li style=3D"list-style-type: decimal;"><p><span style=3D"color: rgb(0,0,0)=
+;">Development, QA, and production environments should all be configured id=
+entically, with different credentials used in each environment.&nbsp;</span=
+></p></li>
+<li style=3D"list-style-type: decimal;"><p><span>Remove or do not install u=
+nused features and frameworks.</span></p></li>
+<li style=3D"list-style-type: decimal;"><p><span>Review and update the conf=
+igurations. Review cloud storage permissions (e.g., S3 bucket permissions).=
+</span></p></li>
+<li style=3D"list-style-type: decimal;"><p><span style=3D"color: rgb(15,15,=
+15);">Different components or tenants may exist in separate network segment=
+s. This physical or virtual network separation helps contain and isolate co=
+mmunication, reducing the attack surface and limiting the potential impact =
+of security incidents.</span></p></li>
+<li style=3D"list-style-type: decimal;"><p><span>Sending security directive=
+s to clients, e.g., Security Headers.</span></p></li>
+<li style=3D"list-style-type: decimal;"><p><span>An automated process to ve=
+rify the effectiveness of the configurations and settings in all environmen=
+ts.</span></p></li>
+</ol>
+<p><br></p>
+<p><strong>Example: Disable Directory Listing</strong></p>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span style=3D"color: rgb(15,15,15)=
+;">For Apache HTTP Server, Tomcat, </span><span style=3D"color: rgb(15,15,1=
+5);">which is a servlet container used for running Java web applications, a=
+lso allows directory listing by default if no index file is present in a di=
+rectory.</span><span>&nbsp;</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>For Nginx: by default off</sp=
+an><span> &amp; </span><span>For IIS: by default off</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Attacker Discovers and Exploi=
+ts Directory Listing:</span></p></li>
+<ul>
+<li style=3D"list-style-type: circle;"><p><span>Action: An attacker discove=
+rs that directory listing is enabled on the target server by accessing a di=
+rectory without specifying a particular file.</span></p></li>
+<li style=3D"list-style-type: circle;"><p><span>Consequence: The attacker i=
+s able to see a listing of files and directories in the accessible location=
+s, gaining insights into the structure of the server.</span></p></li>
+</ul>
+<li style=3D"list-style-type: disc;"><p><span>Discovery and Download of Com=
+piled Java Classes:</span></p></li>
+<ul>
+<li style=3D"list-style-type: circle;"><p><span>Action: During the director=
+y listing, the attacker identifies directories containing compiled Java cla=
+sses (files with a .class extension).</span></p></li>
+<li style=3D"list-style-type: circle;"><p><span>Consequence: The attacker d=
+ownloads the compiled Java classes from the server. These classes may conta=
+in executable code, representing different components of a Java application=
+.</span></p></li>
+</ul>
+<li style=3D"list-style-type: disc;"><p><span>Decompilation and Reverse Eng=
+ineering:</span></p></li>
+<ul>
+<li style=3D"list-style-type: circle;"><p><span>Action: The attacker uses a=
+ Java decompiler to reverse engineer the downloaded .class files, convertin=
+g them back into human-readable Java source code.</span></p></li>
+<li style=3D"list-style-type: circle;"><p><span>Consequence: By decompiling=
+ the Java classes, the attacker gains access to the source code of the appl=
+ication. This allows them to analyze, understand, and potentially identify =
+vulnerabilities or weaknesses in the code.</span></p></li>
+</ul>
+</ul>
+<p><strong><br></strong></p>
+<p><br></p>
+</div>
+<p><span style=3D"color: rgb(0,0,0);"><br></span></p>
+</div>
+<span><span style=3D"color: rgb(0,0,0);"><br></span></span>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_1742101_2136539129.1700797702587--
